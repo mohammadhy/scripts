@@ -13,3 +13,7 @@
     ```bash
     git clone https://github.com/your_username/project_name.git
     ```
+## Features
+- Feature 1: Description
+- Feature 2: Description
+- Feature 3: Description
