@@ -8,3 +8,8 @@
 - [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
+## Installation
+1. Clone the repo:
+    ```bash
+    git clone https://github.com/your_username/project_name.git
+    ```
