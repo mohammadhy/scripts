@@ -17,3 +17,5 @@
 - Feature 1: Description
 - Feature 2: Description
 - Feature 3: Description
+## Contact
+Your Name - [your_email@example.com](mailto:your_email@example.com)
