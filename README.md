@@ -1,6 +1,10 @@
 # scripts
 ## Use modsecurity installation script with specific version of nginx
 ### ./modsecurity 1.18.0 
+# My Awesome Project
+
+A brief description of what this project does and who it's for.
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
