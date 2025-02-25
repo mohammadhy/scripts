@@ -1,0 +1,3 @@
+openssl req -x509 -newkey rsa:2048 -keyout ca.key -out ca.crt -days 365 -nodes -subj "/CN=Prometheus CA"
+openssl req -newkey rsa:2048 -keyout node_exporter.key -out node_exporter.csr -nodes -subj "/CN=node_exporter" -addext "subjectAltName = IP:<NODE_EXPORTER_IP>"
+openssl x509 -req -in node_exporter.csr -CA ca.crt -CAkey ca.key -CAcreateserial -out node_exporter.crt -days 365 -extfile <(echo "subjectAltName = IP:<NODE_EXPORTER_IP>")
