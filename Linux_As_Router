@@ -1,0 +1,7 @@
+vim /etc/sysctl.conf
+net.ipv4.ip_forward=1
+sysctl -p
+sudo iptables -A FORWARD -j ACCEPT
+sudo iptables -t nat -s 10.0.2.0/24 -A POSTROUTING -j MASQUERADE
+sudo mkdir /etc/iptables | sudo iptables-save | sudo tee /etc/iptables/rules.v4
+# Define on network setting IP Router
